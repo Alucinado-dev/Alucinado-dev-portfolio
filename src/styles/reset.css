@@ -122,7 +122,7 @@ footer .developed-by a{
     color: var(--text-color-footer);
     
     &::before{
-        content: '</ALUCIN4DO>';
+        content: '</ALUCINADO>';
     }
 
     &:hover, &:focus{

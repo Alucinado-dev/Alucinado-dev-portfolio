@@ -40,7 +40,7 @@ footer .developed-by a{
     color: var(--text-color-2);
     
     &::before{
-        content: '</ALUCIN4DO>';
+        content: '</ALUCINADO>';
     }
 
     &:hover, &:focus{
