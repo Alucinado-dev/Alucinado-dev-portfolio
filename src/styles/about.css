@@ -27,7 +27,7 @@
     margin-top: 2rem;
     font-family: var(--exo);
     color: var(--title);
-    text-shadow: 0 0 5px var(--title), 0 0 8px var(--title-shadow);
+    text-shadow: 0 0 3px var(--title), 0 0 6px var(--title-shadow);
     z-index: 10;
 
 }
@@ -37,7 +37,7 @@
     font-style: italic;
     font-family: var(--neuropol);
     color: var(--title);
-    text-shadow: 0 0 1px var(--title-shadow), 0 0 5px var(--title-shadow);
+    text-shadow: 0 0 1px var(--title-shadow), 0 0 3px var(--title-shadow);
     font-size: 1.2em;
     margin: 1rem auto;
     z-index: 10;
@@ -66,8 +66,8 @@
 }
 
 #about #aboutme-text p #dev{
-    color: var(--subtitle);
-    text-shadow: 0 0 1px var(--subtitle), 0 0 2px var(--subtitle);
+    color: var(--role-emphasis);
+    text-shadow: 0 0 1px var(--role-emphasis), 0 0 2px var(--role-emphasis);
 }
 
 #about #aboutme-text p #html{

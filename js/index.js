@@ -6,7 +6,7 @@ const buttons = [
     buttonProjects = document.getElementById('btn-projects'),
     buttonExperience = document.getElementById('btn-experience'),
 ]
-
+    
 const btnText = document.querySelectorAll('.section-button span');
 
 buttons.forEach(button => {
@@ -35,7 +35,7 @@ btnText[0].classList.add('active'); /* sets home to active */
 
 
 
-/* hover lights effect */
+/* hover lights effect in navbar */
 
 const syncPointer = ({x: pointerX, y: pointerY}) => {
     const x = pointerX.toFixed(2);

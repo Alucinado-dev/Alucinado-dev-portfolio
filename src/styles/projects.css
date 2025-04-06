@@ -7,8 +7,8 @@
 #projects h2{
     font-size: 2em;
     margin-bottom: 2.5rem;
-    color: var(--title2);
-    text-shadow: 0 0 5px var(--title2), 0 0 8px var(--title2);
+    color: var(--title);
+    text-shadow: 0 0 3px var(--title), 0 0 8px var(--title-shadow);
     font-family: var(--orbitron);
 }
 
@@ -187,6 +187,7 @@
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 3rem;
+    height: auto;
 }
 
 #projects #coming-soon .project-main .project-image{
@@ -213,18 +214,14 @@
 }
 
 #projects #coming-soon .project-main .project-image div img{
-    width: 60px;
-    height: 60px;
+    width: 8rem;
+    height: 8rem;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 #projects #coming-soon .project-main .project-description{
     font-size: 1.4rem;
-    color: aliceblue;
-    text-align: justify;
-}
-
-#projects #coming-soon .project-main .project-links{
-    display: flex;
-    gap: 1rem;
+    color: var(--text-color-2);
+    font-family: var(--oxanium);
+    text-align: center;
 }

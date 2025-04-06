@@ -10,8 +10,9 @@
 
 :root{
     /* Colors */
-    --bg-color-1 : #110f1a;
-    --bg-color-2 : #1e1e30;
+    --bg-color-1: #030d22;
+    --bg-color-2: #364378;
+    --bg-color-3: #120c0a;
 
     --logo1: #FF00FF;
     --logo2: #00FFFF;
@@ -21,10 +22,10 @@
     --title-shadow: #00cfc1;
 
     --title2: #6c00e0;
-    --scroll: #3f37c9;
+    --scroll: #1f4880;
 
-    --text-color-1: #e3e6ef;
-    --text-color-2: #bacfdd;
+    --text-color-1: #feefcf;
+    --text-color-2: #cbd3de;
     
     --name-emphasis: var(--logo1);
     --role-emphasis: var(--logo2);
@@ -60,7 +61,6 @@ body{
     width: 100vw;
 }
 
-/* make main occupy all height availible between header and footer */
 main{
 
     width: 100vw;

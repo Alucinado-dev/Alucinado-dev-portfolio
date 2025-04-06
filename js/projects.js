@@ -75,9 +75,9 @@ function showProjects(){
                         </main>
 
                         <footer class="project-links">
-                            <a href="" target="_blank" rel="noopener noreferrer"> view project</a>
+                            <a href="https://conecta-ongs-orcin.vercel.app/" target="_blank" rel="noopener noreferrer"> view project</a>
                             <span>|</span>
-                            <a href="" target="_blank" rel="noopener noreferrer"> view repository</a>
+                            <a href="https://github.com/Alucinado-dev/ConectaONGs" target="_blank" rel="noopener noreferrer"> view repository</a>
                         </footer>
                     </article>
 
@@ -146,7 +146,7 @@ function showProjects(){
                                 </div>
                             </figure>
                             
-                            <p class="project-description" >New projects are coming! Grab a coffee and check back soon.</p>
+                            <p class="project-description" >New projects are coming! Grab a coffee <i class="fa-solid fa-mug-hot"></i> and check back soon.</p>
                         </main>
                     </article>
                 </div>

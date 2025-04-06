@@ -18,14 +18,14 @@
 }
 
 #skills #stacks-title{
-    color: var(--role-emphasis);
-    text-shadow: 0 0 5px var(--role-emphasis), 0 0 10px var(--role-emphasis);
+    color: var(--title);
+    text-shadow: 0 0 3px var(--title), 0 0 6px var(--title-shadow);
 
 }
 
 #skills #tools-title{
     color: var(--logo1);
-    text-shadow: 0 0 5px var(--logo1), 0 0 10px var(--logo1);
+    text-shadow: 0 0 3px var(--logo1), 0 0 6px var(--logo1);
     display: none;
 }
 
@@ -38,7 +38,7 @@
     width: 80px;
     height: 30px;
     border-radius: 30px;
-    border: 2px solid var(--role-emphasis);
+    border: 2px solid var(--title);
     position: absolute;
     cursor: pointer;
     background-color: var(--bg-color-2);
@@ -55,12 +55,12 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: var(--role-emphasis);
+    background-color: var(--title);
     left: 1px;
     z-index: 10;
     transition: all 600ms ease-in-out;
     border: 1px solid var(--bg-color-2);
-    box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    box-shadow:  0 0 10px 3px rgba(0, 0, 0, 0.8);
 }
 
 #skills #toggle:checked + #ball{
@@ -74,7 +74,7 @@
     transform: translateY(-50%);
     left: 5px;
     font-size: 18px;
-    color: var(--role-emphasis);
+    color: var(--title);
     
 }
 
@@ -98,8 +98,8 @@
     transition: all ease-in-out 500ms;
     padding: 2rem;
     border-radius: 1rem;
-    background:rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    background:var(--bg-color-2);
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.8);
     overflow: hidden;
 }
 
@@ -118,7 +118,7 @@
 }
 
 #skills .stack {
-    background: var(--bg-color-2);
+    background: var(--bg-color-3);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2); 
     position: relative;
     border-radius: 1rem;

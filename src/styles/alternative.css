@@ -3,6 +3,14 @@
         font-size: 50%;
     }
 
+    #about{
+        font-size: 2rem;
+    }
+
+    #about #aboutme-text{
+        width: 80%;
+    }
+
     #skills #scroll-container-tools{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -19,6 +27,10 @@
         align-items: center;
     }
 
+    header nav{
+        height: auto;
+        padding: 1rem;
+    }
     header nav ul{
         justify-content: space-between;
         gap: 8rem;
@@ -64,16 +76,37 @@
         font-size: 35%;
     }
 
+    #about{
+        font-size: 3rem;
+    }
+
     #home hgroup:hover #role span{
         transform: translateX(-5.5rem);
     }
 
+    #experience{
+        font-size: 3.6rem;
+    }
+
+    #experience #experience-container{
+        max-width: 65%;
+    }
 }
 
 @media screen and (max-width: 625px) {
     header nav ul{
         justify-content: space-between;
         gap: 1rem;
+    }
+
+    #about{
+        font-size: 2.6rem;
+    }
+    
+
+    #about #aboutme-text{
+        width: 90%;
+    
     }
 
     #projects #slider-projects{
@@ -114,9 +147,26 @@
         font-size: 20%;
     }
 
+    #about{
+        font-size: 4rem;
+    }
+
     #skills #button-toggle-skills{
         bottom: 100px;
         right: 100px;
+    }
+
+    #experience{
+        font-size: 5.4rem;
+        &::after{
+            background: linear-gradient(270deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) )
+        }
+    }
+
+    #experience #experience-container{
+        max-width: 85%;
+        right: auto;
+        gap: 10rem;
     }
 }
 

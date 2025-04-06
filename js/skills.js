@@ -132,7 +132,7 @@ function toggleStacksAndTools(){
             fadeIn(toolsTitle, true, 700, false, 'top', 100)
 
             labelToggle.style.borderColor = 'var(--logo1)';
-            labelToggle.style.boxShadow = '0 0 10px var(--logo1)'
+
         }
         else{
             stacksTitle.style.display = 'block';
@@ -143,8 +143,8 @@ function toggleStacksAndTools(){
             fadeIn(myStacks, true, 700, false, 'bottom', 100)
             fadeIn(stacksTitle, true, 700, false, 'top', 100)
 
-            labelToggle.style.borderColor = 'var(--subtitle)';
-            labelToggle.style.boxShadow = '0 0 10px var(--subtitle)';
+            labelToggle.style.borderColor = 'var(--title';
+            
         }
         
     });
