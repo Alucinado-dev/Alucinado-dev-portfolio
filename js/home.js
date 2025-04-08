@@ -9,7 +9,7 @@ function showHome() {
 
             <div class="social-networks-container">
                 <a href="https://www.linkedin.com/in/lucino-de-campos/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/ALucin4do" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Alucinado-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
                 <a href="mailto:lucinogabriel1510@gmail.com" id="email" ><i class="fa-solid fa-envelope"></i></a>
             </div>
         </section>
