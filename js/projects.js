@@ -5,7 +5,33 @@ function showProjects(){
 
             <div id="container-projects">
                 <div id="slider-projects">
-                        <!-- Digital Web Watch -->
+
+                <!-- Calculator -->
+                    <article class="project">
+                        <header class="project-header">
+                            <h4 class="project-title">My Calculator</h4>
+
+                            <div class="project-tags">
+                                <span class="html-tag">html</span>
+                                <span class="css-tag">css</span>
+                                <span class="javascript-tag">javascript</span>
+                            </div>
+                        </header>
+
+                        <main class="project-main">
+                            <figure class="project-image">
+                                <img src="/src/assets/projects/calculator-screenshot.png" alt=" a screenshot of my calculator website ">
+                            </figure>                            
+                        </main>
+
+                        <footer class="project-links">
+                            <a href="https://calculatoralucinado.vercel.app/" target="_blank" rel="noopener noreferrer"> view project</a>
+                            <span>|</span>
+                            <a href="https://github.com/Alucinado-dev/Futuristic-Calculator" target="_blank" rel="noopener noreferrer"> view repository</a>
+                        </footer>
+                    </article>
+                    
+                    <!-- Digital Web Watch -->
                     <article class="project">
                         <header class="project-header">
                             <h4 class="project-title">Digital Web Watch</h4>
