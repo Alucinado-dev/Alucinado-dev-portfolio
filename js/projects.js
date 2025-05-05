@@ -6,6 +6,31 @@ function showProjects(){
             <div id="container-projects">
                 <div id="slider-projects">
 
+                <!-- Iara Viagens -->
+                    <article class="project">
+                        <header class="project-header">
+                            <h4 class="project-title">Iara Viagens</h4>
+
+                            <div class="project-tags">
+                                <span class="html-tag">html</span>
+                                <span class="css-tag">css</span>
+                                <span class="javascript-tag">javascript</span>
+                            </div>
+                        </header>
+
+                        <main class="project-main">
+                            <figure class="project-image">
+                                <img src="/src/assets/projects/screenshot-iara3.png" alt=" a screenshot of iara viagens website ">
+                            </figure>                            
+                        </main>
+
+                        <footer class="project-links">
+                            <a href="https://iara-viagens.vercel.app/" target="_blank" rel="noopener noreferrer"> view project</a>
+                            <span>|</span>
+                            <a href="https://github.com/Alucinado-dev/Travel-agency-page" target="_blank" rel="noopener noreferrer"> view repository</a>
+                        </footer>
+                    </article>
+
                 <!-- Calculator -->
                     <article class="project">
                         <header class="project-header">
