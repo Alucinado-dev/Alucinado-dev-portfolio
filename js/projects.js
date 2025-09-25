@@ -56,30 +56,6 @@ function showProjects(){
                         </footer>
                     </article>
                     
-                    <!-- Digital Web Watch -->
-                    <article class="project">
-                        <header class="project-header">
-                            <h4 class="project-title">Digital Web Watch</h4>
-
-                            <div class="project-tags">
-                                <span class="html-tag">html</span>
-                                <span class="css-tag">css</span>
-                                <span class="javascript-tag">javascript</span>
-                            </div>
-                        </header>
-
-                        <main class="project-main">
-                            <figure class="project-image">
-                                <img src="/src/assets/projects/digital-web-watch-screenshot.png" alt="a screenshot of digital web watch website">
-                            </figure>
-                        </main>
-
-                        <footer class="project-links">
-                            <a href="https://digital-web-watch.vercel.app/" target="_blank" rel="noopener noreferrer"> view project</a>
-                            <span>|</span>
-                            <a href="https://github.com/ALucin4do/Digital-Web-Watch" target="_blank" rel="noopener noreferrer"> view repository</a>
-                        </footer>
-                    </article>
 
                     <!-- Number Guesser -->
                     <article class="project">
