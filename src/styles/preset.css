@@ -38,6 +38,17 @@
     --js-color: #F7DF1E;
     --node-color: #339933;
     --react-color: #61DAFB;
+
+                                
+    --vite-color: #646CFF;
+    --typescript-color: #3178C6;
+    --git-color: #F05032;
+    --github-color: #181717;
+    --vercel-color: #000000;
+    --tailwind-color: #06B6D4;
+    --radix-ui-color: #167EE6;
+    --framer-motion-color: #0055FF;
+    
     
 
     /* Fonts */

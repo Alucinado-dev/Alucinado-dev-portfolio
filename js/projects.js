@@ -6,6 +6,43 @@ function showProjects(){
             <div id="container-projects">
                 <div id="slider-projects">
 
+                <!-- Task Manager-->
+                    <article class="project">
+                        <header class="project-header">
+                            <h4 class="project-title">Task Manager</h4>
+
+                            <div class="project-tags">
+                                <span class="html-tag">html</span>
+                                <span class="css-tag">css</span>
+                                <span class="javascript-tag">javascript</span>
+                                <span class="node-tag">node</span>
+                                <span class="react-tag">react</span>
+                                <span class="vite-tag">vite</span>
+                                <span class="typescript-tag">typescript</span>
+                                <span class="git-tag">git</span>
+                                <span class="github-tag">github</span>
+                                <span class="vercel-tag">vercel</span>
+                                <span class="tailwind-tag">tailwind</span>
+                                <span class="radix-ui-tag">radix-ui</span>
+                                <span class="framer-motion-tag">framer-motion</span>
+
+
+                            </div>
+                        </header>
+
+                        <main class="project-main">
+                            <figure class="project-image">
+                                <img src="/src/assets/projects/og-image.jpeg" alt=" a screenshot of Task Manager website ">
+                            </figure>                            
+                        </main>
+
+                        <footer class="project-links">
+                            <a href="https://your-taskmanager.vercel.app/" target="_blank" rel="noopener noreferrer"> view project</a>
+                            <span>|</span>
+                            <a href="https://github.com/Nibirutta/task-manager" target="_blank" rel="noopener noreferrer"> view repository</a>
+                        </footer>
+                    </article>
+
                 <!-- Iara Viagens -->
                     <article class="project">
                         <header class="project-header">

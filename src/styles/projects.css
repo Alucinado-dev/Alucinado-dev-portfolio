@@ -116,6 +116,44 @@
     background-color: var(--node-color);
 }
 
+#projects .project .project-header .project-tags .typescript-tag{
+    background-color: var(--typescript-color);
+}
+
+#projects .project .project-header .project-tags .tailwind-tag{
+    background-color: var(--tailwind-color);
+}
+
+#projects .project .project-header .project-tags .radix-ui-tag{
+    background-color: var(--radix-ui-color);
+}
+
+#projects .project .project-header .project-tags .framer-motion-tag{
+    background-color: var(--framer-motion-color);
+}
+
+
+    
+#projects .project .project-header .project-tags .vite-tag{
+    background-color: var(--vite-color);
+}
+
+#projects .project .project-header .project-tags .github-tag{
+    background-color: var(--github-color);
+}
+
+#projects .project .project-header .project-tags .vercel-tag{
+    background-color: var(--vercel-color);
+}
+
+#projects .project .project-header .project-tags .git-tag{
+    background-color: var(--git-color);
+}
+
+
+
+
+
 
 #projects .project .project-main{
     height: 180px;
